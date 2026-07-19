@@ -118,12 +118,35 @@ Demo Video: (Add your video link here)
 
 ## Screenshots
 
-![WelcomePage](screenshots/s1.jpg)
-![Registration](screenshots/s2.jpg)
-![Login](screenshots/s3.jpg)
-![HrPage](screenshots/s4.jpg)
-![UserPage](screenshots/s8.jpg)
+### Welcome Page
 
+<p align="center">
+  <img src="screenshots/s1.jpg" width="600"/>
+</p>
+
+### Registration Page
+
+<p align="center">
+  <img src="screenshots/s2.jpg" width="600"/>
+</p>
+
+### Login Page
+
+<p align="center">
+  <img src="screenshots/s3.jpg" width="600"/>
+</p>
+
+### HR Dashboard
+
+<p align="center">
+  <img src="screenshots/s4.jpg" width="600"/>
+</p>
+
+### User Dashboard
+
+<p align="center">
+  <img src="screenshots/s8.jpg" width="600"/>
+</p>
 ---
 
 ## Key Highlights

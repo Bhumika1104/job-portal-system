@@ -1,16 +1,159 @@
-# React + Vite
+# Job Portal System (Full Stack Web Application)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The Job Portal System is a full stack web application designed to simulate a real-world recruitment platform. It provides role-based functionality for Human Resources (HR) and Users, enabling efficient job posting, application management, and application tracking.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The system includes resume upload/download functionality, job lifecycle management, and role-based dashboards with analytics.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js (Vite)
+- Tailwind CSS
+- Axios
+
+### Backend
+
+- Spring Boot (Java)
+- RESTful APIs
+
+### Database
+
+- MySQL
+
+---
+
+## Core Features
+
+### User Module
+
+- User Registration and Authentication
+- View all available job listings
+- Search jobs by title
+- Apply for jobs
+- Upload resume (PDF format)
+- Track application status (Accepted / Rejected)
+- View applied jobs history
+
+---
+
+### HR Module
+
+- HR Registration and Authentication
+- Post and manage job openings
+- View all posted jobs
+- Close job listings
+- View applicants for each job
+- Accept or reject applications
+- Download applicant resumes
+
+---
+
+### Dashboard and Analytics
+
+#### HR Dashboard
+
+- Total number of jobs posted
+- Total number of applications received
+- Accepted applications count
+- Rejected applications count
+- Data visualization using charts for insights
+
+#### User Dashboard
+
+-Total number of jobs posted
+
+- Accepted applications count
+- Rejected applications count
+- View applied jobs
+- Track application status
+- Personalized job interaction overview
+
+---
+
+## Application Workflow
+
+1. HR logs in and posts job openings
+2. Users register/login and browse available jobs
+3. Users apply for jobs with resume upload
+4. HR reviews applications and downloads resumes
+5. HR accepts or rejects applications
+6. Users track their application status
+
+---
+
+## Project Structure
+
+JobPortalSystem/
+│
+├── JobPortalSystemFrontend/
+├── JobPortal
+
+---
+
+## Setup Instructions
+
+### Backend Setup
+
+cd JobPortal
+mvn spring-boot:run
+
+### Frontend Setup
+
+cd JobPortalSystemFrontend  
+npm install  
+npm run dev
+
+---
+
+## Demo
+
+Demo Video: (Add your video link here)
+
+---
+
+## Screenshots
+
+![WelcomePage](screenshots/s1.jpg)
+![Registration](screenshots/s2.jpg)
+![Login](screenshots/s3.jpg)
+![HrPage](screenshots/s4.jpg)
+![UserPage](screenshots/s8.jpg)
+
+---
+
+## Key Highlights
+
+- Full Stack Web Application using React and Spring Boot
+- Role-Based Authentication (HR and User)
+- Resume Upload and Download Functionality
+- Job Application Tracking System
+- Job Lifecycle Management (Open/Close)
+- Dashboard Analytics with Data Visualization
+- REST API Integration
+
+---
+
+## Future Enhancements
+
+- JWT-based authentication and security
+- Email notifications for application updates
+- Cloud deployment (Vercel, Render)
+
+---
+
+## Author
+
+Bhumika Patil  
+B.Tech (Computer Engineering )
+Java Full Stack Developer
+
+---
+
+## Conclusion
+
+This project demonstrates strong understanding of full stack development, REST API design, database relationships, and real-world recruitment system workflows.

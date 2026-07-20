@@ -80,12 +80,12 @@ The system includes **resume upload/download functionality**, **job lifecycle ma
 
 ## 🔄 Application Workflow
 
-1️⃣ HR logs in and posts job openings
-2️⃣ Users register/login and browse available jobs
-3️⃣ Users apply for jobs with resume upload
-4️⃣ HR reviews applications and downloads resumes
-5️⃣ HR accepts or rejects applications
-6️⃣ Users track their application status
+1️⃣ HR register/login in and posts job openings <br>
+2️⃣ Users register/login and browse available jobs <br>
+3️⃣ Users apply for jobs with resume upload <br>
+4️⃣ HR reviews applications and downloads resumes <br>
+5️⃣ HR accepts or rejects applications <br>
+6️⃣ Users track their application status <br>
 
 ---
 
@@ -121,35 +121,35 @@ npm run dev
 
 ## 🎥 Demo
 
-🚀 **Live Demo Walkthrough (3 min video):**
+🚀 **Live Demo Walkthrough (3 min video):** <br>
 👉 Click Here : https://drive.google.com/file/d/1Qakh51Zp1iNzZnzVzG5hDEvBWpbFKtcy/view?usp=drive_link
 
 ---
 
 ## 🖼️ Screenshots
 
-### 🏠 Welcome Page | 📝 Registration Page
+### 🏠 Welcome Page 
 
 <p align="center">
-  <img src="screenshots/s1.jpg" width="45%" style="margin-right:10px;"/>
+  <img src="screenshots/s1.jpg" width="60%"/>
+</p>
+
+---
+
+### 📝 Registration Page | 🔐 Login Page 
+
+<p align="center">
   <img src="screenshots/s2.jpg" width="45%"/>
+  <img src="screenshots/s3.jpg" width="45%" />
 </p>
 
 ---
 
-### 🔐 Login Page | 🧑‍💼 HR Dashboard
+### 🧑‍💼 HR Dashboard | 👤 User Dashboard
 
 <p align="center">
-  <img src="screenshots/s3.jpg" width="45%" style="margin-right:10px;"/>
   <img src="screenshots/s4.jpg" width="45%"/>
-</p>
-
----
-
-### 👤 User Dashboard
-
-<p align="center">
-  <img src="screenshots/s8.jpg" width="60%"/>
+  <img src="screenshots/s8.jpg" width="45%"/>
 </p>
 
 ---
@@ -176,8 +176,8 @@ npm run dev
 
 ## 👩‍💻 Author
 
-**Bhumika Patil**
-🎓 B.Tech (Computer Engineering)
+**Bhumika Patil** <br>
+🎓 B.Tech (Computer Engineering)<br>
 💻 Java Full Stack Developer
 
 ---

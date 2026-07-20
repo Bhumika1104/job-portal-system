@@ -1,4 +1,4 @@
-# 🚀 Job Portal System (Full Stack Web Application)
+<p align="center"> <h1>🚀 Job Portal System (Full Stack Web Application)</h1> </p>
 
 <p align="center">
   <b>🔹 A Real-World Recruitment Platform Simulation 🔹</b><br/>
@@ -133,27 +133,27 @@ npm run dev
 
 ## 📸 Screenshots
 
-### 🏠 Welcome Page | 📝 Registration Page
+### 🏠 Welcome Page 
 
 <p align="center">
   <img src="screenshots/s1.jpg" width="45%"/>
+</p>
+
+---
+
+### 📝 Registration Page | 🔐 Login Page
+
+<p align="center">
   <img src="screenshots/s2.jpg" width="45%"/>
-</p>
-
----
-
-### 🔐 Login Page | 🧑‍💼 HR Dashboard
-
-<p align="center">
   <img src="screenshots/s3.jpg" width="45%"/>
-  <img src="screenshots/s4.jpg" width="45%"/>
 </p>
 
 ---
 
-### 👤 User Dashboard
+### 🧑‍💼 HR Dashboard | 👤 User Dashboard
 
 <p align="center">
+  <img src="screenshots/s4.jpg" width="45%"/>
   <img src="screenshots/s8.jpg" width="60%"/>
 </p>
 
@@ -183,6 +183,7 @@ npm run dev
 
 **Bhumika Patil**
 🎓 B.Tech (Computer Engineering)
+<br>
 💻 Java Full Stack Developer
 
 ---

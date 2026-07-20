@@ -121,7 +121,7 @@ npm run dev
 
 ## 🎥 Demo
 
-🚀 **Live Demo Walkthrough (3 min video):** <br>
+🚀 **Live Demo Walkthrough (2:24 min video):** <br>
 👉 Click Here : https://drive.google.com/file/d/1Qakh51Zp1iNzZnzVzG5hDEvBWpbFKtcy/view?usp=drive_link
 
 ---

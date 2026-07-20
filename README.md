@@ -1,183 +1,187 @@
-# Job Portal System (Full Stack Web Application)
-
-## Overview
-
-The Job Portal System is a full stack web application designed to simulate a real-world recruitment platform. It provides role-based functionality for Human Resources (HR) and Users, enabling efficient job posting, application management, and application tracking.
-
-The system includes resume upload/download functionality, job lifecycle management, and role-based dashboards with analytics.
+# 💼 Job Portal System (Full Stack Web Application)
 
 ---
 
-## Tech Stack
+## 📌 Overview
 
-### Frontend
+The **Job Portal System** is a full stack web application designed to simulate a real-world recruitment platform. It provides role-based functionality for **Human Resources (HR)** and **Users**, enabling efficient job posting, application management, and application tracking.
 
-- React.js (Vite)
-- Tailwind CSS
-- Axios
-
-### Backend
-
-- Spring Boot (Java)
-- RESTful APIs
-
-### Database
-
-- MySQL
+The system includes **resume upload/download functionality**, **job lifecycle management**, and **role-based dashboards with analytics**.
 
 ---
 
-## Core Features
+## 🛠️ Tech Stack
 
-### User Module
+### 🎨 Frontend
 
-- User Registration and Authentication
-- View all available job listings
-- Search jobs by title
-- Apply for jobs
-- Upload resume (PDF format)
-- Track application status (Accepted / Rejected)
-- View applied jobs history
+* ⚛️ React.js (Vite)
+* 🎯 Tailwind CSS
+* 🔗 Axios
 
----
+### ⚙️ Backend
 
-### HR Module
+* ☕ Spring Boot (Java)
+* 🔄 RESTful APIs
 
-- HR Registration and Authentication
-- Post and manage job openings
-- View all posted jobs
-- Close job listings
-- View applicants for each job
-- Accept or reject applications
-- Download applicant resumes
+### 🗄️ Database
+
+* 🐬 MySQL
 
 ---
 
-### Dashboard and Analytics
+## 🚀 Core Features
 
-#### HR Dashboard
+### 👤 User Module
 
-- Total number of jobs posted
-- Total number of applications received
-- Accepted applications count
-- Rejected applications count
-- Data visualization using charts for insights
-
-#### User Dashboard
-
--Total number of jobs posted
-
-- Accepted applications count
-- Rejected applications count
-- View applied jobs
-- Track application status
-- Personalized job interaction overview
+* 📝 User Registration and Authentication
+* 📄 View all available job listings
+* 🔍 Search jobs by title
+* 📩 Apply for jobs
+* 📎 Upload resume (PDF format)
+* 📊 Track application status (Accepted / Rejected)
+* 📚 View applied jobs history
 
 ---
 
-## Application Workflow
+### 🧑‍💼 HR Module
 
-1. HR logs in and posts job openings
-2. Users register/login and browse available jobs
-3. Users apply for jobs with resume upload
-4. HR reviews applications and downloads resumes
-5. HR accepts or rejects applications
-6. Users track their application status
+* 📝 HR Registration and Authentication
+* 📢 Post and manage job openings
+* 📄 View all posted jobs
+* ❌ Close job listings
+* 👀 View applicants for each job
+* ✅ Accept or reject applications
+* 📥 Download applicant resumes
 
 ---
 
-## Project Structure
+## 📊 Dashboard and Analytics
 
+### 📈 HR Dashboard
+
+* 📌 Total number of jobs posted
+* 📥 Total number of applications received
+* ✅ Accepted applications count
+* ❌ Rejected applications count
+* 📊 Data visualization using charts for insights
+
+---
+
+### 📊 User Dashboard
+
+* 📌 Total number of jobs posted
+* ✅ Accepted applications count
+* ❌ Rejected applications count
+* 📄 View applied jobs
+* 🔍 Track application status
+* 👤 Personalized job interaction overview
+
+---
+
+## 🔄 Application Workflow
+
+1️⃣ HR logs in and posts job openings
+2️⃣ Users register/login and browse available jobs
+3️⃣ Users apply for jobs with resume upload
+4️⃣ HR reviews applications and downloads resumes
+5️⃣ HR accepts or rejects applications
+6️⃣ Users track their application status
+
+---
+
+## 📁 Project Structure
+
+```
 JobPortalSystem/
 │
 ├── JobPortalSystemFrontend/
 ├── JobPortal
+```
 
 ---
 
-## Setup Instructions
+## ⚙️ Setup Instructions
 
-### Backend Setup
+### 🔧 Backend Setup
 
+```bash
 cd JobPortal
 mvn spring-boot:run
+```
 
-### Frontend Setup
+### 💻 Frontend Setup
 
+```bash
 cd JobPortalSystemFrontend  
 npm install  
 npm run dev
+```
 
 ---
 
-## Demo
+## 🎥 Demo
 
-🚀 Live Demo Walkthrough (3 min video):  
-Click Here : (https://drive.google.com/file/d/1Qakh51Zp1iNzZnzVzG5hDEvBWpbFKtcy/view?usp=drive_link)
+🚀 **Live Demo Walkthrough (3 min video):**
+👉 Click Here : https://drive.google.com/file/d/1Qakh51Zp1iNzZnzVzG5hDEvBWpbFKtcy/view?usp=drive_link
 
 ---
 
-## Screenshots
+## 🖼️ Screenshots
 
-### Welcome Page
+### 🏠 Welcome Page | 📝 Registration Page
 
 <p align="center">
-  <img src="screenshots/s1.jpg" width="600"/>
+  <img src="screenshots/s1.jpg" width="45%" style="margin-right:10px;"/>
+  <img src="screenshots/s2.jpg" width="45%"/>
 </p>
-
-### Registration Page
-
-<p align="center">
-  <img src="screenshots/s2.jpg" width="600"/>
-</p>
-
-### Login Page
-
-<p align="center">
-  <img src="screenshots/s3.jpg" width="600"/>
-</p>
-
-### HR Dashboard
-
-<p align="center">
-  <img src="screenshots/s4.jpg" width="600"/>
-</p>
-
-### User Dashboard
-
-<p align="center">
-  <img src="screenshots/s8.jpg" width="600"/>
-</p>
----
-
-## Key Highlights
-
-- Full Stack Web Application using React and Spring Boot
-- Role-Based Authentication (HR and User)
-- Resume Upload and Download Functionality
-- Job Application Tracking System
-- Job Lifecycle Management (Open/Close)
-- Dashboard Analytics with Data Visualization
-- REST API Integration
 
 ---
 
-## Future Enhancements
+### 🔐 Login Page | 🧑‍💼 HR Dashboard
 
-- JWT-based authentication and security
-- Email notifications for application updates
-- Cloud deployment (Vercel, Render)
-
----
-
-## Author
-
-Bhumika Patil  
-B.Tech (Computer Engineering )
-Java Full Stack Developer
+<p align="center">
+  <img src="screenshots/s3.jpg" width="45%" style="margin-right:10px;"/>
+  <img src="screenshots/s4.jpg" width="45%"/>
+</p>
 
 ---
 
-## Conclusion
+### 👤 User Dashboard
 
-This project demonstrates strong understanding of full stack development, REST API design, database relationships, and real-world recruitment system workflows.
+<p align="center">
+  <img src="screenshots/s8.jpg" width="60%"/>
+</p>
+
+---
+
+## 🌟 Key Highlights
+
+* 🚀 Full Stack Web Application using React and Spring Boot
+* 🔐 Role-Based Authentication (HR and User)
+* 📎 Resume Upload and Download Functionality
+* 📊 Job Application Tracking System
+* 🔄 Job Lifecycle Management (Open/Close)
+* 📈 Dashboard Analytics with Data Visualization
+* 🔗 REST API Integration
+
+---
+
+## 🔮 Future Enhancements
+
+* 🔐 JWT-based authentication and security
+* 📧 Email notifications for application updates
+* ☁️ Cloud deployment (Vercel, Render)
+
+---
+
+## 👩‍💻 Author
+
+**Bhumika Patil**
+🎓 B.Tech (Computer Engineering)
+💻 Java Full Stack Developer
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates strong understanding of **full stack development**, **REST API design**, **database relationships**, and **real-world recruitment system workflows**.
